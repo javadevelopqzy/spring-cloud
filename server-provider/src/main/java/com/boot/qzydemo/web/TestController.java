@@ -21,7 +21,7 @@ public class TestController {
     private DiscoveryClient client;
 
     @RequestMapping("/test")
-    public String test(){
+    public String test() {
         List<String> services = client.getServices();
         for (String service : services) {
             logger.info(service);
