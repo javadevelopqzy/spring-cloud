@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: server1
+eureka:
+  client:
+    serviceUrl:
+      # 注册中心地址
+      defaultZone: http://localhost:1111/eureka/
