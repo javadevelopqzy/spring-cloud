@@ -1,12 +1,12 @@
 server:
-  port: 1111
+  port: 1112
 eureka:
   client:
     serviceUrl:
       # 注册中心地址
-      defaultZone: http://eureka-server-2:1112/eureka/
+      defaultZone: http://eureka-server-1:1111/eureka/
   instance:
-    hostname: eureka-server-1
+    hostname: eureka-server-2
 
 spring:
   application:
