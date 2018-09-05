@@ -4,10 +4,10 @@ eureka:
   client:
     serviceUrl:
       # 注册中心地址
-      defaultZone: http://eureka-server-2:1112/eureka/
+      defaultZone: http://192.168.0.156:1111/eureka/
   instance:
-    hostname: eureka-server-1
-
+    # 开启IP访问
+    ip-address: true
 spring:
   application:
     name: eureka-server
