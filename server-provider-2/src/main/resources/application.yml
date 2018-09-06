@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: server-provider-1
+eureka:
+  client:
+    serviceUrl:
+      # 注册中心地址
+      defaultZone: http://192.168.1.150:1111/eureka/,http://192.168.1.117:1111/eureka/
+server:
+  port: 8080
