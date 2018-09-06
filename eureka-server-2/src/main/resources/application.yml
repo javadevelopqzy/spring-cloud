@@ -8,6 +8,9 @@ eureka:
   instance:
     # 开启IP访问
     ip-address: true
+  server:
+    # 关闭保护机制
+    enable-self-preservation: false
 spring:
   application:
     name: eureka-server
