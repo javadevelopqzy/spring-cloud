@@ -1,8 +1,10 @@
 spring:
   application:
-    name: server-provider-1
+    name: server-consumer-1
 eureka:
   client:
     serviceUrl:
       # 注册中心地址
-      defaultZone: http://192.168.0.164:1111/eureka/,http://192.168.0.156:1111/eureka/
+      defaultZone: http://192.168.1.150:1111/eureka/
+server:
+  port: 9090

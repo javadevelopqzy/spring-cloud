@@ -12,7 +12,7 @@ public class TestController {
     @RequestMapping("/test")
     public String test() {
         JSONObject json = new JSONObject();
-        json.put("name","1111");
+        json.put("name","2222");
         return JSON.toJSONString(json);
     }
 
