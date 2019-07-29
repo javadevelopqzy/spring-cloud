@@ -7,8 +7,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 // 服务端发现客户端
 @EnableDiscoveryClient
 @SpringBootApplication
-class StartApplication {
+class ServerProviderStartApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(StartApplication.class, args);
+		SpringApplication.run(ServerProviderStartApplication.class, args);
 	}
 }

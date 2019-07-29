@@ -4,7 +4,7 @@ eureka:
   client:
     serviceUrl:
       # 注册中心地址
-      defaultZone: http://192.168.1.117:1111/eureka/
+      defaultZone: http://localhost:2222/eureka/
   instance:
     # 开启IP访问
     ip-address: true

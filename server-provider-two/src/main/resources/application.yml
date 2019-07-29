@@ -6,7 +6,7 @@ eureka:
     serviceUrl:
       # 注册中心地址
       # 在高可用环境下只需要注册到其中一个eureka-server，因为eureka-server之间会相互同步信息
-      defaultZone: http://192.168.1.150:1111/eureka/
+      defaultZone: http://localhost:1111/eureka/
       # 把服务注册到eureka，该值默认为true，如果是false将不注册到eureka
     register-with-eureka: true
     instance:
@@ -15,4 +15,4 @@ eureka:
       # 服务续约时间间隔，默认为30秒，即多久当前应用向注册中心发起一次心跳检测
       lease-renewal-interval-in-seconds: 5
 server:
-  port: 8081
+  port: 9002
