@@ -9,7 +9,7 @@ eureka:
       defaultZone: http://localhost:1111/eureka/
       # 把服务注册到eureka，该值默认为true，如果是false将不注册到eureka
     register-with-eureka: true
-    instance:
+  instance:
       # 服务续约超时时间，默认为90秒，即90秒eureka未收到续约请求的服务将被下线
       lease-expiration-duration-in-seconds: 15
       # 服务续约时间间隔，默认为30秒，即多久当前应用向注册中心发起一次心跳检测
